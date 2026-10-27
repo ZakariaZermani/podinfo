@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfo
-        image: ghcr.io/stefanprodan/podinfo:6.11.0 # {"$imagepolicy": "default:nginxhello"}
+        image: ghcr.io/stefanprodan/podinfo:6.11.0 # {"$imagepolicy": "default:podinfo-image-policy"}
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
