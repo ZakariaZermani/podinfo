@@ -22,8 +22,8 @@ spec:
         app: podinfo
     spec:
       containers:
-      - name: podinfod
-        image: ghcr.io/stefanprodan/podinfo:6.17.0
+      - name: podinfo
+        image: ghcr.io/stefanprodan/podinfo:6.11.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
